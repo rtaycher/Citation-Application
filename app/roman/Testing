@@ -1,0 +1,50 @@
+This document describes the User Interface testing we are planning to do.
+The Unit test are described in the Unit testing document.
+  Rules
+  First rule of Testing is that you don't talk about testing
+  Second rule of Testing it that you do testing
+  Third rule of Testing next to each test put words implying a result(plus comments)
+      a check for pass, partial(w/ explanation) for partial pass,doesn't pass, or not implemented yet.
+      Each Test w/ subtest needs each subtest to pass for the whole test to pass.
+
+Stuff to be Done and remembered during the whole time
+  -Jot down the values for each field, if you change them cross them out, and right new ones next to them
+  -Make comments
+
+Stuff to Test:
+-Everywhere
+    -Test random Toggling widgets a couple of times(make sure they are not all one state), flicking on off on
+    -Test some Random Text Inputs, just tyoing a bunch of stuff
+    -
+-First screen
+	-Scroll up and down the menu a few times then select New Citation
+	-Attempt Going All the way Right/forward(select Right/forward arrow)  
+		then go all the way back using the left arrow
+-Fill out Defendant Form
+    
+Fill out the Time/Place For
+    -Click the GPS button(is this a button)(test GPS coordinates)
+    -Input Address, City , State Zip,Date,Time,Highway,Commoplace
+
+Fill Out The Vehicle Form
+
+Fill out the Incident Attribute Screen(Picking yes to alcohol at the end)
+  -Try toggling some of the Toggle(don't toggle School Zone to test initialization)
+  -Input Alleged Speed, and Speed Limit(Enter a non number for each, test that Application Doesn't allow that)
+  -Did You get the Alcohol Screen? next
+
+Fill out The Alcohol Screen
+    -Fill out BAC,Date,Time(Attempt Entering non valid form)
+
+Fill out the Violation Form
+    -Fill out All fields
+
+-Review the Verify/Print Screen(If it shows previews of decent size check what you have written up against the previews )
+    -Is there an Alcohol Section
+    -Is everything else good?
+-Output
+    -If it is implemented and works on our printer, Review Printed Page
+    -If it is implemented and works. Review Submitted Citation on Fake Database
+
+-Storage
+    -Restart with Previous Citation, check that all values are the Same

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html#a28d722a902f3571ef7ee9e425e4405ed" title="citation.data.CViolation.toXMLString" alt="" coords="269,5,499,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html#a02d7b910aac4b8f2985424c9cc0b9af5" title="citation.data.CLocation.toXMLString" alt="" coords="269,59,499,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html#a654a647471ce91fb3c6a0f0b2f355fe8" title="citation.data.CVehicle.toXMLString" alt="" coords="273,112,495,141"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a454f1d2b3af9e476625ecf4ba6d04ff0" title="citation.data.CPerson.toXMLString" alt="" coords="275,165,493,195"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html#a501fb35e995eb612a7ed34b6aef2dbe8" title="citation.data.CViolation.getElement" alt="" coords="547,5,771,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html#a170535c38a886cbc031ebf6d110d4d2b" title="citation.data.CLocation.getElement" alt="" coords="547,59,771,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html#ac1dcb37aee0bf01e0a3b6b45f5382b99" title="citation.data.CVehicle.getElement" alt="" coords="551,112,767,141"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a533bf771d4b1df67ef9647f22032f718" title="citation.data.CPerson.getElement" alt="" coords="551,165,767,195"/>
+</map>

@@ -1,0 +1,96 @@
+<CitationUI>
+	<Page_1>
+		<Title>OREGON UNIFORM CITATION</Title>
+		<CustomLabelField fieldColor="GRAY" fontSize="14" fontStyle="BOLD ITALIC" fontColor="BLUE" >Create Citation</CustomLabelField>	
+		<Separator>_</Separator>
+		<EditField>Number of people involved:</EditField>
+		<EditField>Number of vehicles involved:</EditField>
+		<LabelField> </LabelField>
+		<LabelField>Location of Incident</LabelField>
+		<Separator>_</Separator>
+		<EditField>Address:</EditField>
+		<EditField>City:</EditField>
+		<EditField>State:</EditField>
+		<EditField>Zip:</EditField>
+		<LabelField> </LabelField>
+		<MapButtonField>View Map</MapButtonField>
+		<Separator>_</Separator>
+		<NavButtonField next="Page_Person">Next</NavButtonField>
+	</Page_1>
+	<Page_Person>
+		<Title>OREGON UNIFORM CITATION</Title>
+		<LabelField>Defendent</LabelField>
+		<Separator>_</Separator>
+		<RadioButtonField group='group1'>Person</RadioButtonField>
+		<RadioButtonField group='group1'>Business</RadioButtonField>
+		<Separator>_</Separator>
+		<EditField>ID#:</EditField>
+		<EditField>State:</EditField>
+		<Separator>_</Separator>
+		<ObjectChoiceField choices='Mr Mrs Ms'>Title:</ObjectChoiceField>
+		<EditField>First:</EditField>
+		<EditField>Middle:</EditField>
+		<EditField>Last:</EditField>
+		<ObjectChoiceField choices='NA Jr Sr I II III IV'>Suffix:</ObjectChoiceField>
+		<EditField>Address:</EditField>
+		<EditField>City:</EditField>
+		<EditField>State:</EditField>
+		<EditField>Zip:</EditField>
+		<DateField>Date of Birth:</DateField>
+		<ObjectChoiceField choices='Male Female'>Sex:</ObjectChoiceField>
+		<ObjectChoiceField choices='White Black Hispanic Asian'>Race:</ObjectChoiceField>
+		<ObjectChoiceField choices='Blue Brown Green Other'>Eye Color:</ObjectChoiceField>
+		<ObjectChoiceField choices='Black Brown Blonde Red Other'>Hair Color:</ObjectChoiceField>
+		<EditField>Endorsements:</EditField>
+		<EditField>Restrictions:</EditField>
+		<EditField>Height:</EditField>
+		<EditField>Weight:</EditField>
+		<Separator>_</Separator>
+		<LabelField>Other Observations</LabelField>
+		<CustomEditField height="124"> </CustomEditField>
+		<Separator>_</Separator>
+		<NavButtonField next="Page_1">Prev</NavButtonField>
+		<NavButtonField next="Page_Vehicle">Next</NavButtonField>
+	</Page_Person>
+	<Page_Vehicle>
+		<Title>OREGON UNIFORM CITATION</Title>
+		<LabelField>Vehicle</LabelField>
+		<Separator>_</Separator>
+		<ObjectChoiceField choices='Auto Motorcycle Boat'>Type:</ObjectChoiceField>
+		<EditField>License Plate#:</EditField>
+		<EditField>Registered State:</EditField>
+		<EditField>VIN#:</EditField>
+		<EditField>Make:</EditField>
+		<EditField>Model:</EditField>
+		<EditField>Style:</EditField>
+		<EditField>Year:</EditField>
+		<EditField>Color:</EditField>
+		<EditField>Secondary Color:</EditField>
+		<NavButtonField next="Page_Person">Prev</NavButtonField>
+		<NavButtonField next="Page_Infraction">Next</NavButtonField>
+	</Page_Vehicle>
+	<Page_Infraction>
+		<Title>OREGON UNIFORM CITATION</Title>
+		<LabelField>Infraction</LabelField>
+		<Separator>_</Separator>
+		<DateField>Date-Time of Incident:</DateField>
+		<EditField>Offense:</EditField>
+		<CheckboxField>Accident</CheckboxField>
+		<CheckboxField>Radar</CheckboxField>
+		<CheckboxField>School Zone</CheckboxField>
+		<CheckboxField>Passed</CheckboxField>
+		<EditField>Officer:</EditField>
+		<EditField>Court:</EditField>
+		<EditField>Court Location:</EditField>
+		<DateField>Court Date-Time:</DateField>
+		<EditField>Blood Alcohol:</EditField>
+		<EditField>Violation Type:</EditField>
+		<EditField>Speed Limit:</EditField>
+		<EditField>Alleged Speed:</EditField>
+		<Separator>_</Separator>
+		<LabelField>Narrative</LabelField>
+		<CustomEditField height="124"> </CustomEditField>
+		<Separator>_</Separator>
+		<NavButtonField next="Page_Vehicle">Prev</NavButtonField>
+	</Page_Infraction>
+</CitationUI>

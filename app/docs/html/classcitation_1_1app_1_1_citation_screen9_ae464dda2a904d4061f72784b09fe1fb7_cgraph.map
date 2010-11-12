@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html#a501fb35e995eb612a7ed34b6aef2dbe8" title="citation.data.CViolation.getElement" alt="" coords="375,5,599,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html#ac1dcb37aee0bf01e0a3b6b45f5382b99" title="citation.data.CVehicle.getElement" alt="" coords="379,59,595,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a533bf771d4b1df67ef9647f22032f718" title="citation.data.CPerson.getElement" alt="" coords="379,112,595,141"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html#a170535c38a886cbc031ebf6d110d4d2b" title="citation.data.CLocation.getElement" alt="" coords="375,165,599,195"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html#a56f778872a6dc6bd8e2748ae8e88177d" title="citation.data.Citation.isSubmitted" alt="" coords="380,219,593,248"/>
+<area shape="rect" href="$classcitation_1_1ui_1_1_custom_label_field.html#a1aea941b6190910b2e833feedfa06964" title="citation.ui.CustomLabelField.setBackgroundColor" alt="" coords="333,272,640,301"/>
+</map>

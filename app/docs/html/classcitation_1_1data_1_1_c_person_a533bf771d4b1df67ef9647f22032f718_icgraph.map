@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1app_1_1_citation_screen9.html#ae464dda2a904d4061f72784b09fe1fb7" title="citation.app.CitationScreen9.CitationScreen9" alt="" coords="819,5,1099,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a1699c5cc2e44c1481cc6d31ed0e7cbaf" title="citation.data.CPerson.toPrettyString" alt="" coords="269,44,499,73"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a454f1d2b3af9e476625ecf4ba6d04ff0" title="citation.data.CPerson.toXMLString" alt="" coords="275,97,493,127"/>
+<area shape="rect" href="$classcitation_1_1app_1_1_citation_screen9_1_1_button_listener9.html#ad882c863fd04870aeaeb7131c4553a28" title="citation.app.CitationScreen9.ButtonListener9.fieldChanged" alt="" coords="1148,39,1505,68"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html#a2c74435befc5f3a307197a4cbfae9c6a" title="citation.data.Citation.toPrettyString" alt="" coords="547,44,771,73"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html#ac867b1710f20c1829bb5ab349c18f11c" title="citation.data.Citation.toXMLString" alt="" coords="551,97,767,127"/>
+<area shape="rect" href="$classcitation_1_1output_1_1_citation_output.html#a231de0c9c8b222fe112e856f360668b1" title="citation.output.CitationOutput.submitCitation" alt="" coords="820,72,1097,101"/>
+</map>

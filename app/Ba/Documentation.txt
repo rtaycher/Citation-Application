@@ -1,0 +1,50 @@
+Table of contents
+1: Purging all previous applications and clearing black berry simulator flash memory. CLR SIM.
+2: Resource Bundles. REBUN.
+
+
+
+
+
+
+//******* CLR SIM ************//
+To clear previous blackberry simulations:
+
+First you need to delete the project as well as inside of the
+C:\Program Files\EclipseBlackBerry\plugins\net.rim.eide.componentpack4.5.0_4.5.0.16\components\simulator folder
+
+it's .cod files. The cod files are the stored hard files of the simulations that are 
+not connected to the project in eclipse once you've deleted the projects.  
+
+Meaning even if you delete the projects from
+eclipse, it will still be available in the simuator.
+
+Next step is to delete the flash memory. This keeps track of all the simulations regardless 
+if they have their cod files. 
+
+Simply resetting the flash memory from command line 
+is not enough to delete all traces of the old simulation.
+
+As a safely precaution, I suggest deleting the dmp files of that particular simulator 
+you are using also in the same folder.
+
+After this is complete, reset the flash using command line also stating which 
+simulator to reset the flash.
+
+http://docs.blackberry.com/en/developers/deliverables/6340/Reset_the_flash_memory_607547_11.jsp
+note: The fledge.exe is usaully in the eclipse -> plugins -> net.rim[tab] -> components -> simulator folder
+
+
+
+//******* REBUN ************//
+I noticed that the resource bundle for the main java file, example foo.java will require the resource files .rrh and .rrc.
+To create them simply file->new project -> blackberry application -> new resources.
+
+Simply creating theses files will automatically create the resource file shown as a unison file
+that consists of 2 seperate .rrh and .rrc files. Whatever you name the resource file say foo.rrh,
+there will be a foo.rrc file as well as a class that will be called fooResources.java located somewhere
+in the .tmp folder of the project folder. This fooResources.java file will be automatically 
+generated along with some hash index and a schematic java version of the resource bundle you can
+edit (via point and click). 
+
+Most likely the fooResources.java file will not be visable on the Package Explorer in Eclipse.

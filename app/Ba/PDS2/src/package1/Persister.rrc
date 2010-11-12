@@ -1,0 +1,8 @@
+APPLICATION_TITLE#0="Persistent Data Storage v2";
+APP_EXIT#0="Goodbye";
+APP_SUCCESS#0="Success~";
+FIELD_CAR#0="Car:";
+FIELD_CITIZEN#0="Name:";
+FIELD_DRIVERLICENSE#0="Driver License:";
+MENUITEM_GET#0="Get";
+MENUITEM_SAVE#0="Save";

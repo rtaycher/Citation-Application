@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Ba/PDS2/src"/>
+	<classpathentry kind="src" path="current_app_bak_02_22/src"/>
+	<classpathentry kind="src" path="current_app/src"/>
+	<classpathentry kind="src" path="marek/PrinterModule/src"/>
+	<classpathentry kind="src" path="marek/ZebraDemo/src"/>
+	<classpathentry kind="src" path="mark/bb_writ/src"/>
+	<classpathentry kind="src" path="mark/myWebService/src"/>
+	<classpathentry kind="src" path="mark/xml_ui/src"/>
+	<classpathentry kind="src" path="releases/alpha-1/src"/>
+	<classpathentry kind="src" path="releases/alpha-2/src"/>
+	<classpathentry kind="src" path="releases/alpha-3/src"/>
+	<classpathentry kind="src" path="releases/alpha4/src"/>
+	<classpathentry kind="src" path="releases/alpha5/src"/>
+	<classpathentry kind="src" path="releases/alpha6/src"/>
+	<classpathentry kind="src" path="releases/alpha7/src"/>
+	<classpathentry kind="src" path="releases/alpha8/src"/>
+	<classpathentry excluding="test/|output/database/" kind="src" path="roman"/>
+	<classpathentry kind="src" path="roman/output/database"/>
+	<classpathentry kind="src" path="roman/test"/>
+	<classpathentry excluding="citation/|test/|citation/output/database/|output/database/" kind="src" path="roman2"/>
+	<classpathentry excluding="output/database/" kind="src" path="roman2/citation"/>
+	<classpathentry kind="src" path="roman2/citation/output/database"/>
+	<classpathentry kind="src" path="roman2/output/database"/>
+	<classpathentry kind="src" path="roman2/test"/>
+	<classpathentry kind="src" path="server/MyWebService/src"/>
+	<classpathentry kind="src" path="steve/ui_testing_storyboards"/>
+	<classpathentry kind="lib" path="marek/PrinterModule/ZSDK_API.jar"/>
+	<classpathentry kind="lib" path="marek/ZebraDemo/ZebraDemo.jar"/>
+	<classpathentry kind="lib" path="marek/ZebraDemo/ZSDK_API.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="releases/alpha6/src"/>
+</classpath>

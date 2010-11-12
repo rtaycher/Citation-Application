@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://DefaultNamespace" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://DefaultNamespace" xmlns:intf="http://DefaultNamespace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://DefaultNamespace" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="ping">
+    <complexType/>
+   </element>
+   <element name="pingResponse">
+    <complexType>
+     <sequence>
+      <element name="pingReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postString">
+    <complexType>
+     <sequence>
+      <element name="s" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postStringResponse">
+    <complexType>
+     <sequence>
+      <element name="postStringReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postCitationAsXML">
+    <complexType>
+     <sequence>
+      <element name="xml" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postCitationAsXMLResponse">
+    <complexType>
+     <sequence>
+      <element name="postCitationAsXMLReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="openCitation">
+    <complexType>
+     <sequence>
+      <element name="citationNumber" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="openCitationResponse">
+    <complexType>
+     <sequence>
+      <element name="openCitationReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postCitationEntry">
+    <complexType>
+     <sequence>
+      <element name="citationNumber" type="xsd:int"/>
+      <element name="key" type="xsd:string"/>
+      <element name="value" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="postCitationEntryResponse">
+    <complexType>
+     <sequence>
+      <element name="postCitationEntryReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="closeCitation">
+    <complexType/>
+   </element>
+   <element name="closeCitationResponse">
+    <complexType/>
+   </element>
+   <element name="getDMVResultAsXML">
+    <complexType>
+     <sequence>
+      <element name="_license" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getDMVResultAsXMLResponse">
+    <complexType>
+     <sequence>
+      <element name="getDMVResultAsXMLReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="closeCitationRequest">
+
+      <wsdl:part element="impl:closeCitation" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDMVResultAsXMLResponse">
+
+      <wsdl:part element="impl:getDMVResultAsXMLResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postStringResponse">
+
+      <wsdl:part element="impl:postStringResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="pingResponse">
+
+      <wsdl:part element="impl:pingResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="pingRequest">
+
+      <wsdl:part element="impl:ping" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postCitationEntryResponse">
+
+      <wsdl:part element="impl:postCitationEntryResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postStringRequest">
+
+      <wsdl:part element="impl:postString" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="closeCitationResponse">
+
+      <wsdl:part element="impl:closeCitationResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postCitationAsXMLResponse">
+
+      <wsdl:part element="impl:postCitationAsXMLResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="openCitationRequest">
+
+      <wsdl:part element="impl:openCitation" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDMVResultAsXMLRequest">
+
+      <wsdl:part element="impl:getDMVResultAsXML" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postCitationAsXMLRequest">
+
+      <wsdl:part element="impl:postCitationAsXML" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="postCitationEntryRequest">
+
+      <wsdl:part element="impl:postCitationEntry" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="openCitationResponse">
+
+      <wsdl:part element="impl:openCitationResponse" name="parameters"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="CitationCatcher">
+
+      <wsdl:operation name="ping">
+
+         <wsdl:input message="impl:pingRequest" name="pingRequest"/>
+
+         <wsdl:output message="impl:pingResponse" name="pingResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postString">
+
+         <wsdl:input message="impl:postStringRequest" name="postStringRequest"/>
+
+         <wsdl:output message="impl:postStringResponse" name="postStringResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postCitationAsXML">
+
+         <wsdl:input message="impl:postCitationAsXMLRequest" name="postCitationAsXMLRequest"/>
+
+         <wsdl:output message="impl:postCitationAsXMLResponse" name="postCitationAsXMLResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="openCitation">
+
+         <wsdl:input message="impl:openCitationRequest" name="openCitationRequest"/>
+
+         <wsdl:output message="impl:openCitationResponse" name="openCitationResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postCitationEntry">
+
+         <wsdl:input message="impl:postCitationEntryRequest" name="postCitationEntryRequest"/>
+
+         <wsdl:output message="impl:postCitationEntryResponse" name="postCitationEntryResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="closeCitation">
+
+         <wsdl:input message="impl:closeCitationRequest" name="closeCitationRequest"/>
+
+         <wsdl:output message="impl:closeCitationResponse" name="closeCitationResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getDMVResultAsXML">
+
+         <wsdl:input message="impl:getDMVResultAsXMLRequest" name="getDMVResultAsXMLRequest"/>
+
+         <wsdl:output message="impl:getDMVResultAsXMLResponse" name="getDMVResultAsXMLResponse"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="CitationCatcherSoapBinding" type="impl:CitationCatcher">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="ping">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="pingRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="pingResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postString">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="postStringRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="postStringResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postCitationAsXML">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="postCitationAsXMLRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="postCitationAsXMLResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="openCitation">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="openCitationRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="openCitationResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="postCitationEntry">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="postCitationEntryRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="postCitationEntryResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="closeCitation">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="closeCitationRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="closeCitationResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getDMVResultAsXML">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getDMVResultAsXMLRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getDMVResultAsXMLResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="CitationCatcherService">
+
+      <wsdl:port binding="impl:CitationCatcherSoapBinding" name="CitationCatcher">
+
+         <wsdlsoap:address location="http://localhost:8080/myWebService/services/CitationCatcher"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

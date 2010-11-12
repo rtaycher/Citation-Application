@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a6e8f5e76bbff5207170966624d6c383b" title="citation.comm.CitationCatcher_Stub.postCitationAsXML" alt="" coords="331,5,677,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html#a020613eba378a1efdf74b5166513202e" title="citation.data.Citation.setSubmitted" alt="" coords="393,59,615,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html#ac867b1710f20c1829bb5ab349c18f11c" title="citation.data.Citation.toXMLString" alt="" coords="396,112,612,141"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#ac1f09e50280c8b0a9cd3823180a5cf7c" title="citation.comm.CitationCatcher_Stub._prepOperation" alt="" coords="725,5,1048,35"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html#a28d722a902f3571ef7ee9e425e4405ed" title="citation.data.CViolation.toXMLString" alt="" coords="772,59,1001,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html#a02d7b910aac4b8f2985424c9cc0b9af5" title="citation.data.CLocation.toXMLString" alt="" coords="772,112,1001,141"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html#a654a647471ce91fb3c6a0f0b2f355fe8" title="citation.data.CVehicle.toXMLString" alt="" coords="776,165,997,195"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a454f1d2b3af9e476625ecf4ba6d04ff0" title="citation.data.CPerson.toXMLString" alt="" coords="777,219,996,248"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html#a501fb35e995eb612a7ed34b6aef2dbe8" title="citation.data.CViolation.getElement" alt="" coords="1096,59,1320,88"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html#a170535c38a886cbc031ebf6d110d4d2b" title="citation.data.CLocation.getElement" alt="" coords="1096,112,1320,141"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html#ac1dcb37aee0bf01e0a3b6b45f5382b99" title="citation.data.CVehicle.getElement" alt="" coords="1100,165,1316,195"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html#a533bf771d4b1df67ef9647f22032f718" title="citation.data.CPerson.getElement" alt="" coords="1100,219,1316,248"/>
+</map>

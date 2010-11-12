@@ -1,0 +1,187 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+
+    <!-- Tabs -->
+    
+    <g id="tabs">
+        <g id="buttontab" fill-opacity="0.5">
+            <rect id="buttontabrect" y="10" rx="4" ry="4" width="70" height="42" fill="none" stroke="#FFFFFF"/>
+            <text id="buttontabnametext"  y="25" font-size="15" font-weight="bold" fill="red">  </text>
+            <set attributeName="fill-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="fill-opacity" to="0.5" begin="focusout"/> 
+        </g> 
+
+        <rect id = "border" y="32" rx="10" ry="10" width="450" height="270" fill="white" stroke= "#FFFFFF"/> 
+        <rect id="buttontabenabled" visibility="visible" y="31" rx="4" ry="4" width="70" height="2" fill="white" stroke="none" stroke-width="0.5"/>   
+    </g>
+    
+    <!-- Button panel -->
+    <g id="buttonview" display="inline" stroke-opacity="0.25" fill="#FF6600" >
+       
+        <g>
+          <text x="15" y="15" font-weight="bold" font-size="14"> OREGON UNIFORM CITATION AND COMPLAINT </text>
+          <text x="15" y="25" font-weight="bold" font-size="10"> Use for All Violations or Crimes Where Separate Complaint Will </text>
+          <text x="15" y="35" font-weight="bold" font-size="10"> Not Be Filed/ORS 153.045 or 133.069 </text>
+        </g>
+        
+        <g id="checkbox1"> 
+          <rect x="15" y="35"  width="110" height="45" stroke-width="1.5"  fill-opacity="0.25" stroke="#FFFFFF"/>
+          <g>
+            <rect x="20" y="40" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check1" display="none" points="20 45 25 50 35 35" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext1" x="40" y="57" font-weight="bold" font-size="12"> CRIME(S) </text>
+            <text x="22" y="75" font-weight="bold" font-size="12"> (See A on Back) </text> 
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>
+          </g> 
+        </g>
+        
+        <g> 
+          <rect x="127" y="35"  width="75" height="45" stroke-width="0.5" fill-opacity="0.5" stroke="#FF6600"/>
+            <text x="130" y="57" font-weight="bold" font-size="12"> OR </text>
+            <text x="130" y="75" font-weight="bold" font-size="12"> (Not Both) </text>          
+        </g> 
+               
+        <g id="checkbox2"> 
+          <rect x="204" y="35"  width="120" height="45" stroke-width="1.5"  fill-opacity="0.25" stroke="#FFFFFF"/>
+          <g>
+            <rect x="209" y="40" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check2" display="none" points="209 45 214 50 224 35" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext2" x="234" y="57" font-weight="bold" font-size="12"> VIOLATION(S) </text>
+            <text x="211" y="75" font-weight="bold" font-size="12"> (See B on Back) </text> 
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>
+          </g>  
+        </g>        
+
+        <g>
+          <rect x="15" y="82"  width="309" height="45" stroke-width="1.5"  fill-opacity="0.25" stroke="#FFFFFF"/>
+          <g id="checkbox3">        
+            <rect x="20" y="87" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check3" display="none" points="20 92 25 97 35 82" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext3" x="40" y="99" font-weight="bold" font-size="12"> Traffic </text>         
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>       
+          </g>  
+            
+          <g id="checkbox4">
+            <rect x="120" y="87" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check4" display="none" points="120 92 125 97 135 82" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext4" x="140" y="99" font-weight="bold" font-size="12"> Other </text>         
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>      
+          </g>
+          
+          <g id="checkbox5">
+            <rect x="220" y="87" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check5" display="none" points="220 92 225 97 235 82" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext5" x="240" y="99" font-weight="bold" font-size="12"> Wildlife </text>         
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>      
+          </g> 
+          
+          <g id="checkbox6">        
+            <rect x="20" y="107" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check6" display="none" points="20 112 25 117 35 102" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext6" x="40" y="119" font-weight="bold" font-size="12"> Boating </text>         
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>       
+          </g> 
+             
+          <g id="checkbox7">
+            <rect x="120" y="107" rx="4" ry="4" width="15" height="15" stroke-width="1.5"  fill-opacity="0.25" stroke="#FF6600"/>
+            <polyline id="check7" display="none" points="120 112 125 117 135 102" fill="none" stroke="red" stroke-width="2"/>
+            <text id="checkboxtext7" x="140" y="119" font-weight="bold" font-size="12"> Commercial Fishing </text>         
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/>      
+          </g>      
+        </g>
+        
+        <g>           
+          <text id="textboxlabeltext" y="150" font-weight="bold" font-size="12"> CITY/OTHER PUBLIC BODY
+          </text>
+          
+          <g id="textbox" stroke-opacity="0.5">
+                <rect id="textboxrect" y="160" rx="2" ry="2" width="185" height="20" fill-opacity="0.25" stroke="#FF6600" stroke-width="1" />
+                <text id="textboxtext" y="175" font-size="15">  </text>
+                <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+                <set attributeName="stroke-opacity" to="0.5" begin="focusout"/> 
+          </g>
+          <rect id="textboxcursor" y="162" rx="2" ry="2" display="none" width="2" height="13" fill-opacity="0.25" stroke="#FF6600" stroke-width="1" />      
+              
+          <g id="combobox"  stroke-opacity="0.1">
+            <rect id="comboboxrect" y="160" width="100" height="20" fill-opacity="0.0" stroke= "#FF6600" stroke-width="1"/>
+            
+            <g id="comboboxarrow">
+                <rect id= "comboboxarrowrect"  y="160" width="20" height="20" fill-opacity="0.25" stroke= "#FF6600" stroke-width="1"/>
+                <polyline id="comboboxarrowup" points="425,172, 430,167, 435, 172" display="none"  fill="none" stroke="#FF6600" stroke-width="3" />
+                <polyline id="comboboxarrowdown" points="425,167, 430,172, 435, 167" display="inline" fill="none" stroke="#FF6600" stroke-width="3" />
+            </g>
+            
+            <g id="comboboxgroup" display="none">
+                <g id="comboboxitem1" stroke-opacity="0.5">
+                    <rect id="comboboxrect1" y="160" width="100" height="20" fill-opacity="0.5" stroke= "#FF6600" stroke-width="0.5"/>
+                    <text id="comboboxitemtext1" x="0" y="174" font-size="14" > Clackamas </text>
+                </g>
+                
+                <g id="comboboxitem2" stroke-opacity="0.5">
+                    <rect id="comboboxrect2" y="180" width="100" height="20" fill-opacity="0.20" stroke= "#FF6600" stroke-width="0.5"/>
+                    <text id="comboboxitemtext2" x="0" y="194" font-size="14" > Washington </text>
+                </g>
+                
+                <g id="comboboxitem3" stroke-opacity="0.5">
+                    <rect id="comboboxrect3" y="200" width="100" height="20" fill-opacity="0.20" stroke= "#FF6600" stroke-width="0.5"/>
+                    <text id="comboboxitemtext3" x="0" y="214" font-size="14" > Multnomah </text>
+                </g>
+            </g>
+            
+            <g id="currentcomboboxitem" display="inline">
+                <rect id="currentcomboboxrect"  y="160" width="100" height="20" fill-opacity="0.25" stroke= "#FF6600" stroke-width="0.5"/>
+                <text id="currentcomboboxitemtext" x="0" y="174" font-size="14" > Clackamas </text>
+            </g>
+          </g>                       
+        </g>
+        
+        
+        <g id="button1">
+            <rect id="button1rect" y="270" rx="5" ry="5" width="100" height="25" stroke= "#FF6600" stroke-width="2"  fill-opacity="0.25"/>
+            <text id="button1text" y="288" font-weight="bold" font-size="18"> Submit </text>
+            <set attributeName="stroke-opacity" to="1.0" begin="focusin"/>
+            <set attributeName="stroke-opacity" to="0.25" begin="focusout"/> 
+        </g>
+    </g>    
+    
+   
+    
+    <!-- Dialog box -->
+    <g id="dialogbox" display="none">
+        <g>
+            <rect id ="dialogboxrect" x="20" y="80" rx="8" ry="8" width="300" height="220" fill="#ffffff" fill-opacity="1.0" stroke="#FE132B" stroke-width="3">                 
+            </rect>
+            <text id="dialogboxtext1" x="25" y="125" fill="red" font-weight="bold" font-size="14"> text 1 </text>
+            <text id="dialogboxtext2" x="25" y="155" fill="red" font-weight="bold" font-size="14"> text 2 </text>            
+            <text id="dialogboxtext3" x="25" y="185" fill="red" font-weight="bold" font-size="14"> text 3 </text>
+            <text id="dialogboxtext4" x="25" y="215" fill="red" font-weight="bold" font-size="14"> text 4 </text>
+            
+            <g fill="#FF6600">
+                <g id="dialogboxbutton">
+                    <rect id="dialogboxbuttonrect" x="40" y="245" rx="5" ry="5" width="80" height="30" fill-opacity="0.25" stroke="#FF6600" stroke-width="3">                 
+                    </rect>
+                    <text  id="dialogboxbuttontext" x="45" y="265" font-weight="bold" font-size="14"> Proceed
+                    </text>
+                </g>
+            </g>
+            
+            <g fill="#FF6600">
+                <g id="dialogboxbutton2">
+                    <rect id="dialogboxbuttonrect2" x="185" y="245" rx="5" ry="5" width="80" height="30" fill-opacity="0.25" stroke="#FF6600" stroke-width="3">                 
+                    </rect>
+                    <text  id="dialogboxbuttontext2" x="190" y="265" font-weight="bold" font-size="14"> Cancel
+                    </text>
+                </g>
+            </g>            
+
+        </g>
+    </g>
+    
+</svg>

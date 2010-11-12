@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+RIM-COD-Module-Name: ZebraDemo
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bluetooth,net_rim_bbapi_invoke
+MIDlet-Jar-Size: 128278
+MIDlet-1: ,,
+RIM-COD-Creation-Time: 1264374984
+MIDlet-Jar-URL: ZebraDemo.jar
+RIM-COD-URL: ZebraDemo.cod
+RIM-COD-SHA1: e3 02 e0 b2 f7 b6 91 51 3c 19 68 06 bb a5 ae 45 06 65 7b a4
+RIM-COD-Size: 58308
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 1.0
+MIDlet-Name: ZebraDemo
+MIDlet-Vendor: TeamDelta
+MicroEdition-Profile: MIDP-2.0
+RIM-MIDlet-Flags-1: 0

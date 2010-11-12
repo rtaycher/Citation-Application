@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1data_1_1_citation.html" title="citation.data.Citation" alt="" coords="515,233,653,263"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_violation.html" title="citation.data.CViolation" alt="" coords="200,205,355,235"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_location.html" title="citation.data.CLocation" alt="" coords="200,152,355,181"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_person.html" title="citation.data.CPerson" alt="" coords="205,79,349,108"/>
+<area shape="rect" href="$classcitation_1_1data_1_1_c_vehicle.html" title="citation.data.CVehicle" alt="" coords="204,259,351,288"/>
+<area shape="rect" href="$classcitation_1_1query_1_1_g_p_s_location.html" title="citation.query.GPSLocation" alt="" coords="495,312,673,341"/>
+</map>

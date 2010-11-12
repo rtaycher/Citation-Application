@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a982c34069d57e766341795ca316ebf7e" title="citation.comm.CitationCatcher_Stub.closeCitation" alt="" coords="403,5,712,35"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#ac2b66bf7d17c3b7459b24a3ba75b44fd" title="citation.comm.CitationCatcher_Stub.getCourtInfoAsXML" alt="" coords="384,59,731,88"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a2ca8f4e54b82f730ded6407636569ecd" title="citation.comm.CitationCatcher_Stub.getDMVResultAsXML" alt="" coords="377,112,737,141"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#ac5c9a47db1eb3fb0113f89dc6b32c6fc" title="citation.comm.CitationCatcher_Stub.openCitation" alt="" coords="404,165,711,195"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a37e987db4bf91a5bcddc67ca7381cda0" title="citation.comm.CitationCatcher_Stub.ping" alt="" coords="428,219,687,248"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a6e8f5e76bbff5207170966624d6c383b" title="citation.comm.CitationCatcher_Stub.postCitationAsXML" alt="" coords="384,272,731,301"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a1bd4bf15356cba7a78bc813de8b39b73" title="citation.comm.CitationCatcher_Stub.postCitationEntry" alt="" coords="391,325,724,355"/>
+<area shape="rect" href="$classcitation_1_1comm_1_1_citation_catcher___stub.html#a38074cff1fe6d6c59e87781f67a10973" title="citation.comm.CitationCatcher_Stub.postString" alt="" coords="411,379,704,408"/>
+<area shape="rect" href="$classcitation_1_1query_1_1_query_mgr.html#a1e78f62eaee9c9cb9d2b0c02f1418f6b" title="citation.query.QueryMgr.getCourtInfo" alt="" coords="808,59,1043,88"/>
+<area shape="rect" href="$classcitation_1_1query_1_1_query_mgr.html#a54148eb0b1dd3e90e3be4ad08112d563" title="citation.query.QueryMgr.findDMVRecord" alt="" coords="797,112,1053,141"/>
+<area shape="rect" href="$classcitation_1_1output_1_1_citation_output.html#a231de0c9c8b222fe112e856f360668b1" title="citation.output.CitationOutput.submitCitation" alt="" coords="787,272,1064,301"/>
+<area shape="rect" href="$classcitation_1_1app_1_1_citation_screen9_1_1_button_listener9.html#ad882c863fd04870aeaeb7131c4553a28" title="citation.app.CitationScreen9.ButtonListener9.fieldChanged" alt="" coords="1113,272,1471,301"/>
+</map>

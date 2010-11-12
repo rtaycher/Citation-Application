@@ -1,0 +1,76 @@
+## RIM Java Development Environment
+# RIM Project file
+#
+# This file is generated and managed by BlackBerry developer tools.
+# It SHOULD NOT BE modified manually.
+#
+AddOn=0
+AlwaysBuild=0
+[AlxImports
+]
+AutoRestart=0
+[ClassProtection
+]
+[CustomBuildFiles
+]
+[CustomBuildRules
+]
+[DefFiles
+]
+[DependencyFiles
+src\.svn\all-wcprops
+src\.svn\entries
+]
+[DependsOn
+]
+ExcludeFromBuildAll=0
+[Files
+src\.svn\all-wcprops
+src\.svn\entries
+src\citation\app\CitationApp.java
+src\citation\app\CitationScreen.java
+src\citation\data\CitationRecord.java
+src\citation\data\Location.java
+src\citation\data\Person.java
+src\citation\data\Vehicle.java
+src\citation\output\ICitationOutput.java
+src\citation\output\print\ICitationPrint.java
+src\citation\output\store\ICitationStorage.java
+src\citation\query\GPSLocation.java
+src\citation\query\HTTPGoogleAPI.java
+src\citation\query\IServerQuery.java
+src\citation\query\QueryMgr.java
+src\citation\ui\CustomEditField.java
+src\citation\ui\CustomLabelField.java
+src\citation\ui\MapButtonField.java
+src\citation\ui\NavButtonField.java
+src\citation\ui\UIHelper.java
+src\citation\xml\reader\IXMLUIElements.java
+src\citation\xml\reader\XML2UI.java
+src\citation\xml\reader\XMLDocParser.java
+src\citation\xml\UIDef.xml
+src\img\Policeman uniform_48.png
+]
+HaveAlxImports=0
+HaveDefs=0
+HaveImports=0
+[Icons
+src\img\Policeman uniform_48.png
+]
+[ImplicitRules
+]
+[Imports
+]
+Listing=0
+Options=-quiet
+OutputFileName=bb_writ
+[PackageProtection
+]
+RibbonPosition=0
+[RolloverIcons
+]
+RunOnStartup=0
+StartupTier=7
+SystemModule=0
+Type=0
+UserData=|src
